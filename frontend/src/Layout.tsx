@@ -8,7 +8,7 @@ const Layout = (props: { children: React.ReactNode }) => (
         <Navbar />
       </nav>
     </header>
-    <main>
+    <main className='container mx-4'>
       { props.children }
     </main>
   </>
