@@ -4,6 +4,6 @@ export const Home = () => (
   <>
     Home
 
-    <Link to='exercise-setup'>Exercise setup</Link>
+    <Link to='workout-setup'>Workout setup</Link>
   </>
 )

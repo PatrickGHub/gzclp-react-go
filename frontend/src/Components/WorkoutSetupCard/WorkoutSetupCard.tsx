@@ -1,16 +1,16 @@
-interface ExerciseSetupCardProps {
+interface WorkoutSetupCardProps {
   workoutNumber: number
   workoutOptionsT1: string[]
   workoutOptionsT2: string[]
   workoutOptionsT3: string[]
 }
 
-export const ExerciseSetupCard = ({
+export const WorkoutSetupCard = ({
   workoutNumber,
   workoutOptionsT1,
   workoutOptionsT2,
   workoutOptionsT3,
-}: ExerciseSetupCardProps) => {
+}: WorkoutSetupCardProps) => {
   return (
     <>
       <div className='border-2 border-solid border-black my-4'>

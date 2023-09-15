@@ -1,2 +1,2 @@
-export { ExerciseSetupCard } from './ExerciseSetupCard/ExerciseSetupCard.tsx'
+export { WorkoutSetupCard } from './WorkoutSetupCard/WorkoutSetupCard.tsx'
 export { Navbar } from './Navbar/Navbar.tsx'

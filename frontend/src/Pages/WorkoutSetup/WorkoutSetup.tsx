@@ -1,4 +1,4 @@
-import { ExerciseSetupCard } from '../../Components'
+import { WorkoutSetupCard } from '../../Components'
 
 const exerciseOptions = {
   'abs': [
@@ -190,32 +190,30 @@ const exerciseOptions = {
   ]
 }
 
-export const ExerciseSetup = () => (
+export const WorkoutSetup = () => (
   <>
-    <h1>ExerciseSetup</h1>
-
-    <ExerciseSetupCard
+    <WorkoutSetupCard
       workoutNumber={1}
       workoutOptionsT1={exerciseOptions.squat}
       workoutOptionsT2={[...exerciseOptions.horizontalPush, ...exerciseOptions.inclinePush]}
       workoutOptionsT3={exerciseOptions.verticalPull}
     />
 
-    <ExerciseSetupCard
+    <WorkoutSetupCard
       workoutNumber={2}
       workoutOptionsT1={exerciseOptions.verticalPush}
       workoutOptionsT2={exerciseOptions.hipHinge}
       workoutOptionsT3={exerciseOptions.horizontalPull}
     />
 
-    <ExerciseSetupCard
+    <WorkoutSetupCard
       workoutNumber={3}
       workoutOptionsT1={exerciseOptions.horizontalPush}
       workoutOptionsT2={[...exerciseOptions.squat, ...exerciseOptions.quads]}
       workoutOptionsT3={exerciseOptions.verticalPull}
     />
 
-    <ExerciseSetupCard
+    <WorkoutSetupCard
       workoutNumber={4}
       workoutOptionsT1={exerciseOptions.hipHinge.slice(0, 4)}
       workoutOptionsT2={[...exerciseOptions.inclinePush, ...exerciseOptions.verticalPush]}
